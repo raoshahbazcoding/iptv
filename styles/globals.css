@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow: auto;
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.option {
+  overflow: auto;
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.option::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 160 58% 43%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 160 58% 43%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.hero-section {
+  position: absolute;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 0, 0, 0));
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 10vw;
+  top: 0;
+  left: 0;
+}
+
+.card-shadow {
+  box-shadow: 4px 4px 12.4px 0px #2E70584D;
+  background: #FFFFFF1A;
+}
+
+.Features_label {
+  color: transparent;
+  font-weight: 700;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  background-color: #30A1791A;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px #30A17980;
+}
+
+.movie_label {
+  color: transparent;
+  font-weight: 700;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  background-color: #30A1791A;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px #ffffff72;
+}
+
+.close {
+  position: absolute;
+  right: 50px;
+  top: 32px;
+  width: 28px;
+  height: 28px;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 25px;
+  width: 2px;
+  background-color: #FFF;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.platform-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+:root {
+  --primary-color: #2EAE8C;
+  --button-hover-color: #239579; /* darkened color for hover */
+}
+
+.button {
+  /* border-radius: 10rem; */
+  color: #fff;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  /* border-radius: 10rem; */
+  z-index: -2;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: var(--button-hover-color);
+  transition: all .5s;
+  /* border-radius: 10rem; */
+  z-index: -1;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button:hover::before {
+  width: 100%;
+}
