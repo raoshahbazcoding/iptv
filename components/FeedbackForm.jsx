@@ -29,7 +29,7 @@ export function FeedbackForm() {
     }, []);
 
     return (
-        <div className="relative w-full h-[550px] lg:h-[550px] overflow-hidden" ref={divRef}>
+        <div className="relative w-full   h-[550px] lg:h-[550px] overflow-hidden" ref={divRef}>
             {isVisible && (
                 <>
                     <motion.div
@@ -48,13 +48,13 @@ export function FeedbackForm() {
                     </motion.div>
 
                     <motion.div
-                        className="absolute z-10 flex flex-col items-center justify-center px-4 sm:px-12 lg:px-64 text-white top-0 h-[550px] lg:h-[550px] w-full bg-gradient-to-r from-[#041610] via-[#041610]/90 to-[#30a179]/30"
+                        className="absolute z-10 flex flex-col items-center justify-center px-4 sm:px-12 lg:px-64 text-white top-0 h-[550px] lg:h-[550px] w-full  bg-gradient-to-r from-[#041610] via-[#041610]/90 to-[#30a179]/30"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.5, ease: "easeOut" }}
                     >
                         <motion.div
-                            className="w-full max-w-4xl p-6 rounded-xl shadow-lg"
+                            className="w-full lg:max-w-[1500px]  p-6 rounded-xl shadow-lg"
                             initial={{ x: 20, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.5, ease: "easeOut" }}

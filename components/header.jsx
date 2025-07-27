@@ -36,26 +36,26 @@ export function Header() {
   }, [isOpen])
   return (
     <header className="fixed xl:top-5 w-full flex justify-center z-50">
-      <div className="w-full xl:w-[1200px] 2xl:w-[1500px] h-14 bg-[#131313] xl:bg-white/10 backdrop-blur-sm xl:rounded-full px-4">
+      <div className="w-full xl:w-[1200px] 2xl:w-[1500px] py-2  bg-[#131313] xl:bg-white/10 backdrop-blur-sm xl:rounded-full px-6">
         <div className="mx-auto px-4 h-14 flex items-center justify-between">
           <Link href="/">
             <Image
               src="./logo.png"
               alt="Streaming device showing sports Logo"
-              width={150}
-              height={150}
+              width={200}
+              height={200}
               className=""
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden xl:flex items-center gap-3 2xl:gap-8">
+          <nav className="hidden xl:flex items-center  2xl:gap-8">
             {navigation.map((item, index) => (
               item.name == "language" ? <LanguageSwitcher Language={openLanguage} openLanguage={setopenLanguage} openSupport={setopenSupport} /> :
               <Link
                 key={index}
                 href={item.href}
-                className={`${pathname == item.href ? "text-[#2EAE8C] hover:text-white" : "text-white "} transition cursor-pointer text-md 2xl:text-xl font-medium w-auto text-center hover:bg-[#239579] rounded-full px-5 py-2`}
+                className={`${pathname == item.href ? "text-[#2EAE8C] hover:text-white" : "text-white "} transition cursor-pointer text-[17px]  font-medium w-auto text-center hover:bg-[#239579] rounded-full px-5 py-2`}
               >
                 {item.name}
               </Link>
