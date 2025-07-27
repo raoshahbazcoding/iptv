@@ -38,13 +38,13 @@ export function AboutCard() {
             <AmbientBackground />
 
             {isVisible && <motion.div
-                className="relative w-full max-w-[1419px] bg-[#272626]/80 rounded-[30px] backdrop-blur-[17.3px] p-6 flex flex-col lg:flex-row items-center lg:items-start gap-6"
+                className="relative w-full max-w-[1419px] bg-[#272626]/80 rounded-[30px] backdrop-blur-[17.3px] p-6 flex flex-col lg:flex-row items-center lg:items-center gap-6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
             >
                 {/* Image Section */}
-                <div className="relative w-full lg:w-[50%] max-w-[671px] h-full flex justify-center">
+                <div className="relative w-full lg:w-[50%] max-w-[671px] h-full flex justify-center items-center">
                     <Image
                         src="./stream_tv.png"
                         alt="Stream Tv About"
