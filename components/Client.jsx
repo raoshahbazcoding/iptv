@@ -75,7 +75,7 @@ export function Client() {
                 </h2>
             </motion.div>
 
-            <div className="w-full lg:max-w-7xl 2xl:max-w-[1920px] px-4 sm:px-0 flex items-center justify-center gap-4 md:gap-6 lg:gap-8">
+            <div className="w-full lg:max-w-7xl 2xl:max-w-[1500px] px-4 sm:px-0 flex items-center justify-center gap-4 md:gap-6 lg:gap-8">
                 {/* Left Arrow */}
                 <div className="block flex-shrink-0 cursor-pointer" onClick={handlePrevSlide}>
                     <Image
@@ -90,14 +90,14 @@ export function Client() {
                 {/* Slide Content with Animation */}
                 <motion.div
                     key={currentSlide}
-                    className="flex flex-col lg:flex-row items-center justify-center gap-10 md:gap-8 lg:gap-12 px-5 h-[500px] lg:h-[450px]  overflow-hidden cursor-pointer"
+                    className="flex flex-col lg:flex-row items-center justify-center gap-10 md:gap-8 lg:gap-12 px-5 h-[400px] lg:h-[450px]  overflow-hidden cursor-pointer"
                     initial={{ x: currentSlide * 1000, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     exit={{ x: -1000 * currentSlide, opacity: 0 }}
                     transition={{ duration: 0.5 }}>
                     {slides.map((clien, index) => (
                         <div className="flex flex-col lg:flex-row lg:items-start gap-10 md:gap-6 w-[80vw] px-16">
-                            <div className="relative w-full max-w-[420px] lg:hidden">
+                            <div className="relative w-full max-w-[300px] lg:hidden">
                                 <div className="bg-[#30A179] w-full aspect-[4/3] rounded-2xl" />
                                 <Image
                                     src={slides[currentSlide].image}
@@ -107,7 +107,7 @@ export function Client() {
                                 />
                             </div>
 
-                            <div className="flex flex-col lg:flex-row lg:items-start gap-10 md:gap-6 w-[70vw]" key={index} >
+                            <div className="flex flex-col lg:flex-row lg:items-start gap-10 md:gap-6 w-[1200px]" key={index} >
                                 <Image
                                     src="/Vector.png"
                                     alt="Quote"
@@ -141,7 +141,7 @@ export function Client() {
                                         ))}
                                         <span className="ml-2 text-lg md:text-xl text-white">{slides[currentSlide].rating}.0</span>
                                     </div>
-                                    <p className="text-base md:text-lg lg:text-xl text-white max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                                    <p className="text-base  md:text-lg lg:text-xl text-white  leading-relaxed">
                                         {slides[currentSlide].testimonial}
                                     </p>
                                 </div>

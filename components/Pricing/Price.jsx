@@ -101,24 +101,24 @@ export function Price() {
             animate={{ scale: 1.0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            <div className="w-[436.89px] relative overflow-hidden">
+            <div className="w-[450px] max-sm:w-[350px] relative overflow-hidden">
               <div className="transform sm:scale-100 scale-90 origin-top">
                 <div className="relative w-full h-[1090px] rounded-[32.32px]">
                   <div className="absolute left-0 top-0 w-full h-[1079.97px] bg-[#30a079] rounded-[26px]" />
                   <div className="absolute left-0 top-[349.31px] w-full h-[0.87px] bg-[#aebdd6]" />
-                  <div className="absolute left-[95.85px] top-[110.60px] text-center text-white text-[58px] font-semibold">
+                  <div className="absolute left-[70.85px] top-[110.60px] text-center text-white text-[58px] font-semibold">
                     $ {(t.six_Month.plan_value * (Price + 1)).toString().slice(0, 6)}
                   </div>
-                  <div className="absolute left-[95.85px] top-[41.24px] text-white text-[28.98px] font-medium">
+                  <div className="absolute left-[70.85px] top-[41.24px] text-white text-[28.98px] font-medium">
                     {t.six_Month.heading}
                   </div>
-                  <div className="absolute left-[99.19px] top-[85.30px] w-[217.30px] text-center text-white/70 text-base font-normal leading-normal">
+                  <div className="absolute left-[70.19px] top-[85.30px] w-[217.30px] text-center text-white/70 text-base font-normal leading-normal">
                     {t.six_Month.plan_type}
                   </div>
-                  <div className="absolute left-[99.19px] top-[198px] w-[217.30px] text-center text-white/70 text-base font-normal leading-normal">
+                  <div className="absolute left-[70.19px] top-[198px] w-[217.30px] text-center text-white/70 text-base font-normal leading-normal">
                     {t.plan_connection}
                   </div>
-                  <div className="absolute left-[99.19px] top-[230px] w-[217.30px] text-center text-white/70 text-lg font-medium">
+                  <div className="absolute left-[70.19px] top-[230px] w-[217.30px] text-center text-white/70 text-lg font-medium">
                     {Price + 1} Connections
                   </div>
                   <div className="absolute left-0 top-[430.35px] w-full h-[64.65px]">
@@ -220,7 +220,7 @@ export function Price() {
                       <div className="absolute left-0 top-[9.30px] w-[9.26px] h-[9.30px] bg-white rounded-full" />
                     </div>
                   </div>
-                  <div className="absolute left-[91.39px] top-[264.14px] w-[254.11px] h-[53.50px]">
+                  <div className="absolute left-[70.39px] top-[264.14px] w-[254.11px] h-[53.50px]">
                     <div className="absolute left-0 top-0 w-full h-full bg-white rounded-md" />
                     <div className="absolute w-[254.11px] h-[53.50px] flex justify-center items-center text-center text-[#30a079] text-lg font-semibold">
                       {t.button_text}
