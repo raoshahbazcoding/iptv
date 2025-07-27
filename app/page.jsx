@@ -41,9 +41,9 @@ export default function HomePage() {
       <StreamingAnywhere />
       <Price />
       <HowItWorks />
-      <Client />
+      {/* <Client /> */}
       <FeedbackForm />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

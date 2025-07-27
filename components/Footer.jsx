@@ -44,10 +44,10 @@ export function Footer() {
     };
   }, []);
   return (
-    <div ref={divRef} className="px-6 md:px-10 lg:px-[150px] pb-1 flex flex-wrap lg:flex-nowrap justify-between items-start lg:gap-28 bg-gray-900 text-white">
+    <div ref={divRef} className="  flex flex-wrap lg:flex-nowrap items-center justify-center bg-gray-900 text-white">
       {isVisible &&
         <motion.div
-          className="px-6 md:px-10 lg:px-[150px] flex flex-wrap lg:flex-nowrap justify-between items-start lg:gap-28 bg-gray-900 text-white pb-5"
+          className="px-6 max-w-[1500px] md:px-1 lg:px-1 flex flex-wrap lg:flex-nowrap justify-between  lg:gap-[200px] bg-gray-900 text-white pb-5"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
