@@ -8,7 +8,7 @@ const English = {
     Contact_us: "Contact us",
     FAQ: "FAQ",
     Blog: "Blog",
-    Troubleshooting: "Troubleshooting",
+    Troubleshooting: "Troubleshoot",
     Privacy_Policy: "Privacy Policy",
     Refund_Policy: "Refund Policy",
     Get_in_Touch: "Get in Touch",
@@ -40,37 +40,37 @@ const English = {
   },
   features_section: {
     Title: "FEATURES",
-    heading: "Next-Level Entertainment - Explore Our",
+    heading: "Express IPTV streaming of your favourites",
     highlighted_text: "Unique Features",
     Live_TV: {
       title: "Live TV Streaming",
       description:
-        "Immerse yourself in a vibrant world of live channels, delivering the latest in sports, news, and entertainment—always in real-time.",
+        "Get into the universe of live channels, whether it is sports or entertainment, in a real-time experience.",
     },
     video_play: {
       title: "Video On Demands (VOD)",
       description:
-        "Dive into an extensive library of films and series, available 24/7—your entertainment, your schedule.",
+        "Unlimited access to a personal, huge movie and series assortment available anytime and anywhere.",
     },
     Catchup_Tv: {
       title: "Catch-up TV",
       description:
-        "Relive the excitement with our Catch-up TV feature, allowing you to watch missed episodes within a generous timeframe.",
+        "You can never fall asleep/be late to watch your favourite programs: need to get caught up on the shows you missed? No problem!",
     },
     EPG: {
       title: "EPG (Electronic Program Guide)",
       description:
-        "Take control of your viewing with our sleek, user-friendly guide that keeps you updated on current and upcoming shows.",
+        "Get the latest program guide with a convenient, user-friendly program guide on what is currently being shown and what will be shown in the future.",
     },
     Multi_Language: {
       title: "Multi-Language Support",
       description:
-        "Enjoy a truly global experience with diverse audio languages and subtitles, ensuring everyone can join in the fun.",
+        "Have experience with diverse subtitles content and audio languages based on the preferred worldwide content.",
     },
     Search_Filter_Options: {
       title: "Search and Filter Options",
       description:
-        "Find exactly what you’re looking for in seconds with our powerful search and filter tools—your favorites are just a click away.",
+        "Browse our vast library and filter the products you want in a few seconds.",
     },
     best_stream_section: {
       title: "The Best Streaming Experience ",

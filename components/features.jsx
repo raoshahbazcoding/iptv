@@ -55,13 +55,13 @@ export function Features() {
         <h1 className="Features_label text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[120px]">
           {t.Title}
         </h1>
-        <h2 className="text-xs sm:text-base md:text-lg lg:text-2xl font-bold absolute top-[65%] transform -translate-y-1/2 left-1/2 -translate-x-1/2 w-[90%] md:w-auto">
+        <h2 className="text-xl sm:text-base md:text-lg lg:text-2xl font-bold absolute top-[65%] transform -translate-y-1/2 left-1/2 -translate-x-1/2 w-[90%] md:w-auto">
           {t.heading}
           <span className="text-[#2EAE8C]"> {t.highlighted_text}</span>
         </h2>
       </div>
       <div className="flex  justify-center ">
-        <div className="grid grid-cols-1 lg:grid-cols-3 items-center  justify-center gap-[100px] font-medium " >
+        <div className="grid grid-cols-1 lg:grid-cols-3 items-center xl:w-[1200px] 2xl:w-[1500px]  justify-center  font-medium " >
           <div className="flex flex-col gap-[29px] self-stretch text-[13px] leading-[23px]" >
             {isVisible && featuresLeft.map((item, index) => (
               <motion.div
@@ -79,8 +79,8 @@ export function Features() {
             animate={{ opacity: 1, scale: 1.0 }}
             transition={{ delay: 0.2, duration: 1 }}
           >
-            <div className="w-[300px] lg:w-[400px] h-[756px] relative">
-              <div className="w-full h-[730px] left-0 top-0 absolute bg-[#141414] rounded-[30px] border-8 border-white/10  overflow-hidden">
+            <div className="w-[300px] lg:w-[400px]  h-[756px] relative">
+              <div className="w-full h-[830px] xl left-0 top-0 absolute bg-[#141414] rounded-[30px] border-8 border-white/10  overflow-hidden">
                 <div className="absolute top-5 right-5 z-50 w-14 h-14 bg-[#1A1A1A] border-[#26262649] border-4 rounded-xl flex justify-center content-center">
                   <Image
                     src="./Icon.png"
@@ -89,7 +89,7 @@ export function Features() {
                     height={30}
                     className="object-contain" />
                 </div>
-                <div className="h-[670px] left-0 absolute flex-col justify-start items-center inline-flex">
+                <div className="h-[670px]  absolute flex-col justify-start items-center ">
                   <div className="self-stretch h-[550px] flex-col justify-start items-center gap-2.5 flex overflow-hidden">
                     <div className="w-auto h-40 justify-start items-start gap-2.5 inline-flex">
                       <Image
@@ -100,25 +100,25 @@ export function Features() {
                         className="object-contain w-auto h-auto" />
                     </div>
                   </div>
-                  <div className="w-[300px] lg:w-[370px] h-[239px] flex-col justify-center items-center gap-[30px] flex -mt-12">
-                    <div className="h-[157px] flex-col justify-center items-start gap-2.5 flex">
-                      <div className="text-center text-white text-[28px] font-bold leading-[42px]">{t.best_stream_section.title}</div>
-                      <div className="text-center text-[#999999] text-sm font-normal leading-[21px]">{t.best_stream_section.description}</div>
-                    </div>
-                    <div className="px-6 py-3.5 bg-[#30a079] rounded-lg justify-start items-center gap-1 inline-flex">
+                  <div className="w-[300px] lg:w-[400px] h-[239px] flex-col  items-start   gap-[30px] flex -mt-12 ">
+                    <div className="h-[157px] flex-col justify-center items-center gap-2.5 flex">
+                      <div className=" text-white text-[28px] font-bold leading-[42px] w-[80%]">{t.best_stream_section.title}</div>
+                      <div className=" text-[#999999] text-md font-normal leading-[21px] w-[80%]">{t.best_stream_section.        description}</div>
+                      </div>
+                      <div className="px-6 py-3.5 bg-[#30a079] rounded-lg justify-center ml-[15%] items-center gap-1 inline-flex">
                       <div className="w-6 h-6 pl-[4.50px] pr-[4.21px] py-[3.78px] justify-center items-center flex overflow-hidden" />
-                      <div className="text-white text-sm font-semibold leading-[21px] flex gap-2">
+                      <div className="text-white text-sm  font-semibold leading-[21px] flex gap-2">
                         <Image
                           src="./Play.png"
                           alt="Play Video Icon"
                           width={0}
                           height={0}
-                          className="object-contain w-5 h-5 rounded-lg" />
+                          className="object-contain w-6 h-6 rounded-lg" />
                         {t.Button_text}</div>
-                    </div>
+                      </div>
                   </div>
                 </div>
-                <div className="w-[133.92px] h-[168.92px] left-[128.08px] top-[168.06px] absolute">
+                <div className="w-[200.92px] h-[168.92px] left-[128.08px] top-[168.06px] absolute">
                   <Image
                     src="./Feature_Card.png"
                     alt="Feature Card"
@@ -130,7 +130,7 @@ export function Features() {
             
             </div>
           </motion.div>}
-          <div className="flex flex-col items-start  gap-[29px] self-stretch text-[13px] leading-[23px]" >
+          <div className="flex flex-col items-end  gap-[29px] self-stretch text-[13px] leading-[23px]" >
             {isVisible && featuresRight.map((item, index) => (
               <motion.div
                 key={index}
@@ -149,7 +149,7 @@ export function Features() {
 }
 
 const FeatureCard = ({ icon, title, description }) => (
-  <div className="flex max-sm:w-[300px] sm:w-[400px] flex-col items-start justify-center gap-2.5 rounded-[35px] border-x-[0.95px] border-t-[0.95px] border-solid border-x-white/20 border-y-white/20 bg-neutral-900 pb-[34px] pl-[34px] pr-11 pt-11 [border-bottom-width:0.95px] cursor-pointer transition-all duration-300 hover:scale-105" >
+  <div className="flex max-sm:w-[300px]  xl:w-[350px] 2xl:w-[400px] flex-col items-start justify-center gap-3 rounded-[35px] border-x-[0.95px] border-t-[0.95px] border-solid border-x-white/20 border-y-white/20 bg-neutral-900 pb-[34px] pl-[34px] pr-11 pt-11 [border-bottom-width:0.95px] cursor-pointer transition-all duration-300 hover:scale-105" >
     <div className="relative flex items-center p-5 ">
       <div className="bg-[#30A179] w-20 h-20 rounded-full flex justify-center content-center items-center">
         <Image
