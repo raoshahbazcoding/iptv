@@ -37,7 +37,7 @@ export function NonStopEntertainment() {
         <div ref={divRef} className='flex justify-center '>
             {isVisible &&
                 <motion.div
-                    className="flex flex-col lg:flex-row  max-w-[1500px]  bg-neutral-950  py-16 items-center text-white gap-10"
+                    className="flex flex-col lg:flex-row  max-w-[1200px] 2xl:max-w-[1500px]  bg-neutral-950  py-16 items-center text-white gap-10"
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.0, ease: "easeOut" }}
@@ -88,6 +88,7 @@ export function NonStopEntertainment() {
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1.0, delay: 0.5 }}
+                        className='flex justify-end'
                     >
                         <Image
                             className="hidden lg:block w-full md:w-[80%] max-w-[787px] h-auto object-cover mt-8 md:mt-0"
