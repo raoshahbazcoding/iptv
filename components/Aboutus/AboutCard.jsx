@@ -38,7 +38,7 @@ export function AboutCard() {
             <AmbientBackground />
 
             {isVisible && <motion.div
-                className="relative w-full max-sm:[300px] xl:max-w-[1200px] h-[95%]  max-w-[1419px] bg-[#272626]/80 rounded-[30px] backdrop-blur-[17.3px] py-6 px-4 flex flex-col lg:flex-row items-center lg:items-center gap-6"
+                className="relative w-full max-sm:[300px] xl:max-w-[1200px] h-[95%]  2xl:max-w-[1500px] bg-[#272626]/80 rounded-[30px] backdrop-blur-[17.3px] py-6 px-4 flex flex-col lg:flex-row items-center lg:items-center gap-6"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}

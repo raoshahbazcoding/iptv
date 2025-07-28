@@ -26,11 +26,11 @@ const English = {
     button_text: "Get Started",
   },
   hero_section: {
-    heading: "The Future of IPTV Stream Seamlessly Anytime, Anywhere",
+    heading: "The Future of IPTV: Avoiding Buffering Anywhere, At Any Time",
     highlighted_text: "Express IPTV!",
     subheading:
-      "Experience the ultimate entertainment with IPTV. Enjoy live sports, the latest movies, and exclusive channels like FOX, CNN, Sky Sports, and Eurosport in HD. With over 45,000 channels, movies, and series available, stream without buffering on any device—Smart TV, mobile, and more—with an easy setup for uninterrupted access.",
-    button_text: "Get Started",
+      "Get the best entertainment by using IPTV. Watch live sports, new movies, and special channels, such as Sky Sports, Eurosport, and live TV channels like FOX and CNN, in high definition. This is the case with more than 45,000 channels, films, and series at the touch of a button, and streaming is made possible, with no buffering, on any device, such as Smart TV, mobile, and other devices, and with an easy installation to enable non-stop viewing.",
+    button_text: "View our packages",
   },
   stats_section: {
     county: "Areas of Service",
