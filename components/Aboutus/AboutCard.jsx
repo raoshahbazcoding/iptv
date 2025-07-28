@@ -57,7 +57,7 @@ export function AboutCard() {
                 {/* Text Section */}
                 <div className="flex flex-col items-center lg:items-start w-full lg:w-[50%] text-center lg:text-left">
                     <motion.h1
-                        className="text-[#30a079]/10 text-[50px] max-sm:text-[35px] lg:text-[70px] font-bold uppercase Features_label"
+                        className="text-[#30a079]/10 text-[50px] max-sm:text-[35px] lg:text-[60px] font-bold uppercase Features_label"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.2, duration: 1 }}
