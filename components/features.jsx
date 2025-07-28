@@ -79,7 +79,7 @@ export function Features() {
             animate={{ opacity: 1, scale: 1.0 }}
             transition={{ delay: 0.2, duration: 1 }}
           >
-            <div className="w-[300px] lg:w-[400px]  h-[756px] relative">
+            <div className="w-[300px] lg:w-[400px]  h-[756px] relative my-10">
               <div className="w-full h-[830px] xl left-0 top-0 absolute bg-[#141414] rounded-[30px] border-8 border-white/10  overflow-hidden">
                 <div className="absolute top-5 right-5 z-50 w-14 h-14 bg-[#1A1A1A] border-[#26262649] border-4 rounded-xl flex justify-center content-center">
                   <Image
@@ -102,10 +102,10 @@ export function Features() {
                   </div>
                   <div className="w-[300px] lg:w-[400px] h-[239px] flex-col  items-start   gap-[30px] flex -mt-12 ">
                     <div className="h-[157px] flex-col justify-center items-center gap-2.5 flex">
-                      <div className=" text-white text-[28px] font-bold leading-[42px] w-[80%]">{t.best_stream_section.title}</div>
-                      <div className=" text-[#999999] text-md font-normal leading-[21px] w-[80%]">{t.best_stream_section.        description}</div>
+                      <div className=" text-white sm:text-[28px] text-[22px] font-bold leading-[42px] px-6 sm:w-[80%]">{t.best_stream_section.title}</div>
+                      <div className=" text-[#999999] sm:text-md text-[12px] px-6 font-normal leading-[21px] sm:w-[80%]">{t.best_stream_section.        description}</div>
                       </div>
-                      <div className="px-6 py-3.5 bg-[#30a079] rounded-lg justify-center ml-[15%] items-center gap-1 inline-flex">
+                      <div className="px-6 py-3.5 bg-[#30a079] rounded-lg justify-center ml-5 sm:ml-[15%] items-center gap-1 inline-flex">
                       <div className="w-6 h-6 pl-[4.50px] pr-[4.21px] py-[3.78px] justify-center items-center flex overflow-hidden" />
                       <div className="text-white text-sm  font-semibold leading-[21px] flex gap-2">
                         <Image
@@ -118,7 +118,7 @@ export function Features() {
                       </div>
                   </div>
                 </div>
-                <div className="w-[200.92px] h-[168.92px] left-[128.08px] top-[168.06px] absolute">
+                <div className="w-[200.92px] h-[168.92px]  left-[128.08px] max-sm:left-[90px] top-[168.06px] absolute">
                   <Image
                     src="./Feature_Card.png"
                     alt="Feature Card"
@@ -130,7 +130,7 @@ export function Features() {
             
             </div>
           </motion.div>}
-          <div className="flex flex-col items-end  gap-[29px] self-stretch text-[13px] leading-[23px]" >
+          <div className="flex flex-col items-end max-sm:my-20 gap-[29px] self-stretch text-[13px] leading-[23px]" >
             {isVisible && featuresRight.map((item, index) => (
               <motion.div
                 key={index}
