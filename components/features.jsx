@@ -102,8 +102,8 @@ export function Features() {
                   </div>
                   <div className="w-[300px] lg:w-[400px] h-[239px] flex-col  items-start   gap-[30px] flex -mt-12 ">
                     <div className="h-[157px] flex-col justify-center items-center gap-2.5 flex">
-                      <div className=" text-white sm:text-[28px] text-[22px] font-bold leading-[42px] px-6 sm:w-[80%]">{t.best_stream_section.title}</div>
-                      <div className=" text-[#999999] sm:text-md text-[12px] px-6 font-normal leading-[21px] sm:w-[80%]">{t.best_stream_section.        description}</div>
+                      <div className=" text-white sm:text-[25px] text-[22px] font-bold leading-[42px] px-6 sm:w-[80%]">{t.best_stream_section.title}</div>
+                      <div className=" text-[#999999] sm:text-[16px] text-[12px] px-6 font-normal leading-[21px] sm:w-[80%]">{t.best_stream_section.        description}</div>
                       </div>
                       <div className="px-6 py-3.5 bg-[#30a079] rounded-lg justify-center ml-5 sm:ml-[15%] items-center gap-1 inline-flex">
                       <div className="w-6 h-6 pl-[4.50px] pr-[4.21px] py-[3.78px] justify-center items-center flex overflow-hidden" />
@@ -160,7 +160,7 @@ const FeatureCard = ({ icon, title, description }) => (
           className="w-9 h-9" />
       </div>
     </div>
-    <div className="pt-[13px] text-center text-[20px] ">
+    <div className="pt-[13px] text-left text-[20px] ">
       {title}
     </div>
     <div className="flex  items-start">
