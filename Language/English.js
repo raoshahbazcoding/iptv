@@ -26,17 +26,17 @@ const English = {
     button_text: "Get Started",
   },
   hero_section: {
-    heading: "Experience the Future of Streaming with",
+    heading: "The Future of IPTV Stream Seamlessly Anytime, Anywhere",
     highlighted_text: "Express IPTV!",
     subheading:
-      "Discover an exceptional entertainment experience designed for today’s viewers. Express IPTV combines ease and speed for an unmatched streaming journey.",
+      "Experience the ultimate entertainment with IPTV. Enjoy live sports, the latest movies, and exclusive channels like FOX, CNN, Sky Sports, and Eurosport in HD. With over 45,000 channels, movies, and series available, stream without buffering on any device—Smart TV, mobile, and more—with an easy setup for uninterrupted access.",
     button_text: "Get Started",
   },
   stats_section: {
-    county: "Service Regions",
+    county: "Areas of Service",
     user: "Active Users",
     Live_tv: "Live Channels",
-    movie_series: "VOD Collection",
+    movie_series: "Booster + VODs",
   },
   features_section: {
     Title: "FEATURES",
@@ -80,18 +80,18 @@ const English = {
     Button_text: "Start Watching Now",
   },
   about_section: {
-    Title: "About Us",
+    Title: "STREAMLINE",
     heading:
-      "Express IPTV offers an easy-to-use player for seamless streaming, enhancing your viewing experience. ",
+      "Obtain the best IPTV in Sweden. Take a subscription and stream in quality now. ",
     Our_Mission_Card: {
-      title: "Our Mission",
+      title: "Secure Payments",
       description:
-        "Our mission is to provide the best IPTV player experience with seamless streaming, advanced features, and an intuitive interface, delivering unmatched satisfaction.",
+        " We provide safe payments via all the primary payment methods. We guarantee 100 per cent protection of your pay through the secure payment system.",
     },
     Our_Story_Card: {
-      title: "Our Story",
+      title: "No Commitment",
       description:
-        "Express IPTV aims to make streaming accessible with a reliable player, prioritizing a smooth viewing experience. Our commitment to efficiency remains central as we grow.",
+        "We do not like unhappy customers, and that is why you do not have any long-term contracts. Your subscription can be refused at any moment without additional charges.",
     },
   },
   device_section: {

@@ -36,19 +36,19 @@ export function Stats() {
   const stats = [
     {
       icon: "./county.png",
-      value: 129,
+      value: 130,
       suffix: "+",
       label: t.county,
     },
     {
       icon: "./user.png",
-      value: 34,
+      value: 150,
       suffix: "K+",
       label: t.user,
     },
     {
       icon: "./Live_tv.png",
-      value: 10,
+      value: 45,
       suffix: "K+",
       label: t.Live_tv,
     },

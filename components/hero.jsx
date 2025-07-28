@@ -20,7 +20,7 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="relative w-screen h-[700px]  sm:h-[800px] lg:h-[1200px] overflow-hidden bg-black">
+    <section className="relative w-screen h-[900px]  sm:h-[800px] lg:h-[1200px] overflow-hidden bg-black">
       {/* Background Image Container */}
       <div className={`grid lg:grid-cols-2 lg:absolute top-0 right-0 w-full lg:w-2/3 lg:h-screen md:h-[30%] h-[25%] transition-all duration-1000 transform ${hasLoaded ? 'scale-[1.7] lg:scale-105 opacity-100' : ' scale-[2.0] lg:scale-110 opacity-0'}`}>
         <Image
