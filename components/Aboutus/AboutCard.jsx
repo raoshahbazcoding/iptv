@@ -90,7 +90,7 @@ export function AboutCard() {
                                     height={0}
                                     className="object-contain w-16 h-20 rounded-[11px]"
                                 />
-                                <h2 className="text-3xl font-medium">{t.Our_Mission_Card.title}</h2>
+                                <h2 className="text-2xl font-medium">{t.Our_Mission_Card.title}</h2>
                                 <p className="text-base font-normal leading-relaxed mt-4">
                                     {t.Our_Mission_Card.description}
                                 </p>
@@ -112,7 +112,7 @@ export function AboutCard() {
                                     height={0}
                                     className="object-contain w-16 h-20 rounded-[11px]"
                                 />
-                                <h2 className="text-3xl font-medium">{t.Our_Story_Card.title}</h2>
+                                <h2 className="text-2xl font-medium">{t.Our_Story_Card.title}</h2>
                                 <p className="text-base font-normal leading-relaxed mt-4">
                                     {t.Our_Story_Card.description}
                                 </p>
