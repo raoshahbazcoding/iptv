@@ -62,7 +62,7 @@ export function Stats() {
 
   return (
     <section className="bg-[#30A179] py-8" ref={divRef}>
-      <div className="container mx-auto px-3">
+      <div className="container mx-auto px-1">
         <div className="flex max-sm:flex-col max-sm:justify-center max-sm:items-center justify-center max-sm:gap-7 sm:gap-2 max-2xl:gap-2 2xl:gap-24  sm:flex-wrap">
           {stats.map((stat, index) => (
             <div key={index} className="card-shadow w-72 text-left bg-[#30A179]/3 flex rounded-lg">

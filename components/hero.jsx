@@ -37,9 +37,9 @@ export function Hero() {
 
       {/* Content Container */}
       <div className="relative h-full container mx-auto px-6 sm:px-10 flex items-center">
-        <div className="w-full md:w-[90%] lg:w-[60%] space-y-6 md:space-y-8">
+        <div className="w-full md:w-[90%] lg:w-[70%] space-y-6 md:space-y-8">
           <motion.h1
-            className="text-2xl md:text-5xl lg:text-6xl xl:text-7xl/[1.3] font-semibold leading-tight text-white text-center lg:text-left"
+            className="text-2xl md:text-5xl  xl:text-6xl/[1.3] font-semibold leading-tight text-white text-center lg:text-left"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.3 }}
