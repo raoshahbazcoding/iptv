@@ -118,9 +118,7 @@ export function Price() {
                   <div className="absolute left-[70.19px] top-[198px] w-[217.30px] text-center text-white/70 text-base font-normal leading-normal">
                     {t.plan_connection}
                   </div>
-                  <div className="absolute left-[70.19px] top-[230px] w-[217.30px] text-center text-white/70 text-lg font-medium">
-                    {Price + 1} Connections
-                  </div>
+               
                   <div className="absolute left-0 top-[430.35px] w-full h-[64.65px]">
                     <div className="absolute left-0 top-0 w-full h-full bg-white/5" />
                     <div className="absolute left-[22.71px] top-[20.25px] w-[436px] h-[27px]">
@@ -269,9 +267,7 @@ const PriceCard = ({ t, Price }) => {
             <div className="absolute left-[89px] top-[175px] w-[194.97px] text-center text-white/70 text-sm font-normal leading-snug">
               {t.plan_connection}
             </div>
-            <div className="absolute left-[89px] top-[200px] w-[194.30px] text-center text-white/70 text-lg font-medium">
-              {Price} Connections
-            </div>
+
             <div className="absolute left-0 top-[386.13px] w-full h-[58.01px]">
               <div className="absolute left-0 top-0 w-full h-full bg-white/5" />
               <div className="absolute left-[20.38px] top-[18.16px] w-[392px] h-4">
