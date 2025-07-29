@@ -48,7 +48,7 @@ export function NonStopEntertainment() {
                         transition={{ duration: 1.0, delay: 0.5 }}
                     >
                         <Image
-                            className="lg:hidden w-full  max-w-[787px] h-auto object-cover mt-8 px-4 md:mt-0"
+                            className="lg:hidden w-full  max-w-[787px]   object-cover mt-8 px-4 md:mt-0"
                             src="./NonStopEntertainment.png"
                             alt="Entertainment Preview"
                             width={0}
@@ -70,7 +70,7 @@ export function NonStopEntertainment() {
                             {t.pricing_description}
                             <span className="font-bold text-[#2EAE8C]"> {t.pricing}</span>, {t.pricing_description_othertext}
                         </p>
-                        <ul className="space-y-4 text-md md:text-xl text-left">
+                        <ul className="space-y-4 text-md md:text-xl xl:text-[16px] text-left">
                             <motion.li className="bg-neutral-800/50 p-4 rounded-lg">{t.option.first_option}</motion.li>
                             <motion.li className="bg-neutral-800/50 p-4 rounded-lg">{t.option.second_option}</motion.li>
                             <motion.li className="bg-neutral-800/50 p-4 rounded-lg">{t.option.third_option}</motion.li>
