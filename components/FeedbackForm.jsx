@@ -60,10 +60,11 @@ export function FeedbackForm() {
                             transition={{ duration: 0.5, ease: "easeOut" }}
                         >
                             <h2 className="text-left text-white text-2xl lg:text-5xl font-semibold mb-6">
-                                Express IPTV – A Leader in Smart IPTV Solutions
+                                Express IPTV Express IPTV is a leader in smart IPTV solutions.
                             </h2>
                             <p className="text-left text-white text-md lg:text-2xl mb-6">
-                                Experience cutting-edge server performance with our fastest and most reliable IPTV technology. Enjoy smooth, buffer-free streaming across all your devices.
+                                Enjoy the best and high-performance of our IPTV with the best IPTV server technology. Have a buffer-free streaming experience on any of your devices. Also, you can contact us anytime of the year, 24 hours a day, 7 days a week, as our customer support works around the clock.
+
                             </p>
                             <motion.button
                                 className="w-40 h-12 bg-[#30a179] text-white rounded-full text-md 2xl:text-xl font-medium flex items-center justify-center"
