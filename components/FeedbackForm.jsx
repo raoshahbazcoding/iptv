@@ -59,10 +59,10 @@ export function FeedbackForm() {
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.5, ease: "easeOut" }}
                         >
-                            <h2 className="text-left text-white text-2xl lg:text-3xl font-semibold mb-6">
+                            <h2 className="text-left text-white text-2xl lg:text-5xl font-semibold mb-6">
                                 Express IPTV – A Leader in Smart IPTV Solutions
                             </h2>
-                            <p className="text-left text-white text-md lg:text-lg mb-6">
+                            <p className="text-left text-white text-md lg:text-2xl mb-6">
                                 Experience cutting-edge server performance with our fastest and most reliable IPTV technology. Enjoy smooth, buffer-free streaming across all your devices.
                             </p>
                             <motion.button

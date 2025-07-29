@@ -10,30 +10,30 @@ export function Client() {
     const slides = [
         {
             id: 1,
-            name: "Emily R.",
-            image: "/client.png",
+            name: "Stream Movies & Series Anytime You Want",
+            image: "https://iptvking.com/wp-content/uploads/2025/07/mahrous-houses-C7UbVbwTyjs-unsplash-scaled-1.webp",
             alt: "Client image 1",
             rating: 5,
             testimonial:
-                "Excellent service! Customer support was quick to respond to my queries, and I appreciate the wide range of channels available.",
+                "Enjoy unlimited entertainment with instant access to your favorite movies and series. Watch whenever it suits you best—no restrictions, no interruptions. Our on-demand IPTV service puts the power of entertainment at your fingertips.",
         },
         {
             id: 2,
-            name: "Michael T.",
-            image: "/client.png",
+            name: "All Your Favorite TV & Sports in One Place",
+            image: "https://iptvking.com/wp-content/uploads/2025/07/360_F_517637806_QEUyQnGVjJjjT4zn4HvXjBRUg9KSLTp1.webp",
             alt: "Client image 2",
             rating: 4,
             testimonial:
-                "I’ve tried various IPTV services, but Express IPTV is the best. The streaming quality is excellent, and the customer support is always ready to help when I need assistance.",
+                "Enjoy top-quality IPTV with premium sports and entertainment from around the world. Stream over 100,000 movies and series in stunning FHD/4K, complete with Swedish subtitles. Experience seamless access to global content—all in one powerful IPTV platform.",
         },
         {
             id: 3,
-            name: "Sarah K",
-            image: "/client.png",
+            name: "Entertainment for Kids of All Ages",
+            image: "https://iptvking.com/wp-content/uploads/2025/07/young-boy-watching-television.webp",
             alt: "Client image 3",
             rating: 5,
             testimonial:
-                "I love Express IPTV! The range of live channels and the ability to catch up on shows makes it my go-to option for home entertainment.",
+                "Our IPTV service provides a safe and enjoyable streaming experience specifically designed for children. From timeless Disney classics to the latest kid-friendly shows, there’s something for every age. Keep your little ones entertained with fun, educational, and age-appropriate content—all in one place.",
         },
     ];
 
@@ -68,14 +68,14 @@ export function Client() {
                 transition={{ duration: 1 }}
             >
                 <h1 className="Features_label text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[100px]">
-                    CLIENT
+                    Streaming
                 </h1>
                 <h2 className="text-md md:text-2xl lg:text-4xl font-semibold absolute top-[60%] lg:top-[64%] transform -translate-y-1/2 left-1/2 -translate-x-1/2 w-[90%] md:w-auto">
-                    What They say about us
+                    Movies, Sports & Kids Shows
                 </h2>
             </motion.div>
 
-            <div className="w-full lg:max-w-7xl 2xl:max-w-[1500px] px-4 sm:px-0 flex items-center justify-center gap-4 md:gap-6 lg:gap-8">
+            <div className="w-full lg:max-w-7xl xl:max-w-[1200px] 2xl:max-w-[1500px] px-4 sm:px-0 flex items-center justify-center gap-4 md:gap-6 lg:gap-8">
                 {/* Left Arrow */}
                 <div className="block flex-shrink-0 cursor-pointer" onClick={handlePrevSlide}>
                     <Image
@@ -108,38 +108,13 @@ export function Client() {
                             </div>
 
                             <div className="flex flex-col lg:flex-row lg:items-start gap-10 md:gap-6 w-[1200px]" key={index} >
-                                <Image
-                                    src="/Vector.png"
-                                    alt="Quote"
-                                    width={80}
-                                    height={80}
-                                    className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain lg:-mt-8"
-                                />
+                              
                                 <div className="lg:pt-5 text-left">
-                                    <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-white mb-4">
+                                    <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-white mb-2">
                                         {slides[currentSlide].name}
                                     </h2>
                                     <div className="flex justify-start items-center gap-2 mb-4">
-                                        {[...Array(slides[currentSlide].rating)].map((_, i) => (
-                                            <Image
-                                                key={i}
-                                                src="/yellowStar.png"
-                                                alt="Star"
-                                                width={24}
-                                                height={24}
-                                                className="w-4 h-4 md:w-6 md:h-6"
-                                            />
-                                        ))}
-                                        {[...Array(5 - slides[currentSlide].rating)].map((_, i) => (
-                                            <Image
-                                                src="/Star.png"
-                                                alt="Star"
-                                                width={24}
-                                                height={24}
-                                                className="w-4 h-4 md:w-6 md:h-6"
-                                            />
-                                        ))}
-                                        <span className="ml-2 text-lg md:text-xl text-white">{slides[currentSlide].rating}.0</span>
+                                        
                                     </div>
                                     <p className="text-base  md:text-lg lg:text-xl text-white  leading-relaxed">
                                         {slides[currentSlide].testimonial}
@@ -175,7 +150,7 @@ export function Client() {
 
             {/* Rating Card */}
             < motion.div
-                className="w-full max-w-4xl xl:max-w-[1500px] px-4 lg:px-10 sm:px-0 py-6 md:py-8 relative"
+                className="w-full max-w-4xl xl:max-w-[1200px] 2xl:max-w-[1500px] px-4 lg:px-10 sm:px-0 py-6 md:py-8 relative"
                 initial={{ opacity: 0 }
                 }
                 whileInView={{ opacity: 1 }}

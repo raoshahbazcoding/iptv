@@ -86,7 +86,7 @@ export function HowItWorks() {
                             <div className="absolute left-[24px] top-16 h-[190.83px] p-[10.96px] flex flex-col justify-start items-start gap-[10.96px]">
                                 <div className="flex flex-col justify-start items-start gap-2">
                                     <Image src={img} alt={alt} width={0} height={0} className="object-contain w-16 h-20 rounded-[11px]" />
-                                    <div className="text-white text-[32.87px] xl:text-[28px] font-medium">{title}</div>
+                                    <div className="text-white text-[32.87px] font-medium">{title}</div>
                                     <div className=" text-white text-md font-normal leading-7 pr-5">{description}</div>
                                 </div>
                             </div>
