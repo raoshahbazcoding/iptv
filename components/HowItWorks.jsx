@@ -45,7 +45,7 @@ export function HowItWorks() {
                 </h2>
             </div>
             {/* Cards Section */}
-            <div className="w-full  flex  justify-center items-center max-sm:gap-6 gap-12 max-sm:flex-col">
+            <div className="w-full  flex  justify-center items-center xl:max-w-[1200px] max-sm:gap-6 gap-12 max-sm:flex-col">
                 {isVisible && [{
                     id: 1,
                     img: "./mission.png",
@@ -82,7 +82,7 @@ export function HowItWorks() {
                         transition={{ duration: 1.0, ease: "easeOut" }}
                         className="max-sm:w-full sm:gap-2 h-[480px] relative"
                     >
-                        <div className=" sm:w-[450px] h-[450px] relative bg-[#292929] rounded-[10.96px] border border-white/10 overflow-hidden cursor-pointer transition-all duration-200 hover:scale-105">
+                        <div className=" sm:w-[450px] xl:w-[350px] w-[] h-[450px] relative bg-[#292929] rounded-[10.96px] border border-white/10 overflow-hidden cursor-pointer transition-all duration-200 hover:scale-105">
                             <div className="absolute left-[24px] top-16 h-[190.83px] p-[10.96px] flex flex-col justify-start items-start gap-[10.96px]">
                                 <div className="flex flex-col justify-start items-start gap-2">
                                     <Image src={img} alt={alt} width={0} height={0} className="object-contain w-16 h-20 rounded-[11px]" />
