@@ -75,7 +75,7 @@ export function Client() {
                 </h2>
             </motion.div>
 
-            <div className="w-full lg:max-w-7xl xl:max-w-[1200px] 2xl:max-w-[1500px] px-4 sm:px-0 flex items-center justify-center gap-4 md:gap-6 lg:gap-8">
+            <div className="w-full lg:max-w-7xl  2xl:max-w-[1500px] px-4 sm:px-0 flex items-center justify-center gap-4 md:gap-6 lg:gap-8">
                 {/* Left Arrow */}
                 <div className="block flex-shrink-0 cursor-pointer" onClick={handlePrevSlide}>
                     <Image
@@ -148,87 +148,6 @@ export function Client() {
                 </div>
             </div >
 
-            {/* Rating Card */}
-            < motion.div
-                className="w-full max-w-4xl xl:max-w-[1200px] 2xl:max-w-[1500px] px-4 lg:px-10 sm:px-0 py-6 md:py-8 relative"
-                initial={{ opacity: 0 }
-                }
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 1 }}
-            >
-                <div className="w-full h-full relative bg-[#232323] rounded-xl md:rounded-2xl border border-[#30a079] overflow-hidden">
-                    {/* Gradient Overlays */}
-                    <div className="absolute inset-0">
-                        <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-[#30a079]/30 to-[#30a079]/02" />
-                        <div className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-[#30a079]/30 to-[#30a079]/02" />
-                    </div>
-
-                    {/* Content */}
-                    <div className="relative flex flex-col md:flex-row items-center justify-between p-6 md:p-8 gap-4 md:gap-8">
-                        {/* Left Images */}
-                        <div className="hidden md:flex relative w-32 h-24 xl:w-48 xl:h-36 shrink-0">
-                            {[0, 1, 2, 3, 4].map((position) => (
-                                <Image
-                                    key={`left-${position}`}
-                                    src="/service.png"
-                                    alt="Client"
-                                    width={0}
-                                    height={0}
-                                    className={`absolute rounded-full ${position === 0
-                                        ? "left-2 top-9 w-[71px] h-[71px] hidden xl:block"
-                                        : position === 1
-                                            ? "left-[156px] top-[77px] xl:left-[276px] xl:top-[107px] w-[29px] h-[29px]"
-                                            : position === 2
-                                                ? "left-[105px] top-[0px] xl:left-[215px] xl:top-[42px] w-[31px] h-[31px]"
-                                                : position === 3
-                                                    ? "left-[29px] top-[50px] xl:left-[119px] xl:top-[80px] w-[53px] h-[53px]"
-                                                    : "-left-5 xl:left-[111px] -top-6 xl:top-0 w-[53px] h-[53px]"
-                                        }`}
-                                    style={{
-                                        transform: `translate(${position * 10}%, ${position * 5}%)`,
-                                    }}
-                                />
-                            ))}
-                        </div>
-
-                        {/* Center Text */}
-                        <div className="text-center space-y-2 md:space-y-4 flex-1">
-                            <p className="text-white text-sm  xl:text-2xl font-medium">
-                                Overall Customer Satisfaction:
-                            </p>
-                            <p className="text-white text-md md:text-xl xl:text-3xl font-semibold">
-                                4.7 out of 5 based on 500 reviews
-                            </p>
-                        </div>
-
-                        {/* Right Images */}
-                        <div className="hidden md:flex relative w-32 h-24 xl:w-48 xl:h-36 shrink-0">
-                            {[0, 1, 2, 3, 4].map((position) => (
-                                <Image
-                                    key={`right-${position}`}
-                                    src="/service.png"
-                                    alt="Client"
-                                    width={0}
-                                    height={0}
-                                    className={`absolute rounded-full ${position === 0
-                                        ? "-right-5 top-9 w-[71px] h-[71px] hidden xl:block"
-                                        : position === 1
-                                            ? "-left-10 -bottom-3 xl:-left-28 xl:bottom-0 w-[29px] h-[29px]"
-                                            : position === 2
-                                                ? "left-0 top-[0px] xl:-left-10 xl:top-[42px] w-[31px] h-[31px] "
-                                                : position === 3
-                                                    ? "left-[50px] top-[50px] xl:left-[50px] xl:top-[80px] w-[53px] h-[53px]"
-                                                    : "left-[100px] -top-6 xl:left-[70px] xl:top-0 w-[53px] h-[53px]"
-                                        }`}
-                                    style={{
-                                        transform: `translate(-${position * 10}%, ${position * 5}%)`,
-                                    }}
-                                />
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </motion.div >
         </div >
     );
 }
