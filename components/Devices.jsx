@@ -54,7 +54,7 @@ export function Devices() {
         </motion.div>
 
         <motion.div
-          className="text-[24px] md:text-[32px] lg:text-[40px] font-medium"
+          className="text-[24px] md:text-[32px] lg:text-[40px] xl:max-w-[1200px] font-medium"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 1 }}
