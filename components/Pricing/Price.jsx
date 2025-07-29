@@ -70,7 +70,7 @@ export function Price() {
         <div className="w-full max-w-[310px] lg:max-w-[1420px] flex flex-wrap justify-center lg:justify-between h-auto items-center bg-[#2d2d2d] rounded-lg lg:rounded-full py-2 px-10">
 
           {/* Connection Options */}
-          {["1 Connection", "2 Connections", "3 Connections", "4 Connections", "5 Connections"].map((item, index) => (
+          {["Scandinavian Package", "English Pakage", "Arabic Package"].map((item, index) => (
             <div key={index} className={`px-10 py-3 rounded-full text-white text-xl font-medium flex items-center justify-center 
       ${index === Price ? "bg-[#30A179] hover:text-white" : "hover:text-[#30A179]"} transition-all cursor-pointer`} onClick={() => handleConnection(index)}>
               {item}
@@ -101,7 +101,7 @@ export function Price() {
             animate={{ scale: 1.0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            <div className="w-[450px] max-sm:w-[350px] relative overflow-hidden">
+            <div className="w-[450px] 2xl:w-[450px]  max-sm:w-[350px] xl:w-[400px] relative overflow-hidden">
               <div className="transform sm:scale-100 scale-90 origin-top">
                 <div className="relative w-full h-[1090px] rounded-[32.32px]">
                   <div className="absolute left-0 top-0 w-full h-[1079.97px] bg-[#30a079] rounded-[26px]" />
@@ -252,7 +252,7 @@ const PriceCard = ({ t, Price }) => {
       animate={{ x: 0, opacity: 1 }}
       transition={{ delay: 0.5, duration: 1 }}
     >
-      <div className="w-[350px] lg:w-[480px] relative overflow-hidden">
+      <div className="w-[350px] 2xl:w-[480px] xl:w-[375px]  relative overflow-hidden">
         <div className="transform sm:scale-100 scale-90 origin-top">
           <div className="relative w-full h-[978px] rounded-[29px]">
             <div className="absolute left-0 top-0 w-full h-[969px] bg-[#2d2d2d] rounded-[20px]" />

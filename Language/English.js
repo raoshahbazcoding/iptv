@@ -136,7 +136,7 @@ const English = {
         features_four: "Free installation assistance",
         features_five: "VPN use Supported",
         features_six: "TV Guide (EPG)",
-        features_seven: "Update every week",
+        features_seven: "Weekly Updates",
         features_eight: "Watch on any Devices",
         features_nine: "Anti-Freeze Technology",
         features_ten: "24/7 Free VIP Support",
