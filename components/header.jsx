@@ -19,10 +19,12 @@ export function Header() {
   const t = translations[language].header;
   const navigation = [
     { name: t.Home, href: "/" },
+    { name: t.Free_Trail, href: "#" },
     { name: t.Services, href: "/services" },
     { name: t.Guides, href: "/guides" },
     { name: t.Pricing, href: "/pricing" },
     { name: t.About_us, href: "/about" },
+    { name: t.Reseller, href: "#" },
     { name: "language", href: "" },
     { name: t.Blog, href: "/blog" },
   ];
@@ -36,7 +38,7 @@ export function Header() {
   }, [isOpen])
   return (
     <header className="fixed xl:top-5 w-full flex justify-center z-50">
-      <div className="w-full xl:w-[1200px] 2xl:w-[1500px] py-2  bg-[#131313] xl:bg-white/10 backdrop-blur-sm xl:rounded-full px-6">
+      <div className="w-full xl:w-[1400px] 2xl:w-[1500px] py-2  bg-[#131313] xl:bg-white/10 backdrop-blur-sm xl:rounded-full px-6">
         <div className="mx-auto px-4 h-14 flex items-center justify-between">
           <Link href="/">
             <Image

@@ -1,8 +1,11 @@
 const English = {
   header: {
     Home: "Home",
+
     Guides: "Guides",
     Services: "Services",
+    Free_Trail: "Free Trail",
+    Reseller: "Reseller",
     Pricing: "Pricing",
     About_us: "About ",
     Contact_us: "Contact us",
