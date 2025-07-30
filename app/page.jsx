@@ -2,6 +2,8 @@ import React from 'react';
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Stats } from "@/components/stats";
+import { BlogSectin } from "@/components/BlogSection";
+import { HelpCenter } from "@/components/HelpCenter";
 import { Features } from "@/components/features";
 import { AboutCard } from "@/components/Aboutus/AboutCard";
 import { Devices } from "@/components/Devices";
@@ -41,7 +43,9 @@ export default function HomePage() {
       <StreamingAnywhere />
       <Price />
       <HowItWorks />
-      {/* <Client /> */}
+      <Client />
+      <HelpCenter />
+      <BlogSectin/>
       <FeedbackForm />
       <Footer />
     </div>
