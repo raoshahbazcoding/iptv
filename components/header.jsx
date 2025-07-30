@@ -38,7 +38,7 @@ export function Header() {
   }, [isOpen])
   return (
     <header className="fixed xl:top-5 w-full flex justify-center z-50">
-      <div className="w-full xl:w-[1400px] 2xl:w-[1500px] py-2  bg-[#131313] xl:bg-white/10 backdrop-blur-sm xl:rounded-full px-6">
+      <div className="w-full xl:w-[1400px] 2xl:w-[1800px] py-2  bg-[#131313] xl:bg-white/10 backdrop-blur-sm xl:rounded-full px-6">
         <div className="mx-auto px-4 h-14 flex items-center justify-between">
           <Link href="/">
             <Image
