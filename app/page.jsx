@@ -43,7 +43,7 @@ export default function HomePage() {
       <StreamingAnywhere />
       <Price />
       <HowItWorks />
-      <Client />
+      {/* <Client /> */}
       <HelpCenter />
       <BlogSectin/>
       <FeedbackForm />

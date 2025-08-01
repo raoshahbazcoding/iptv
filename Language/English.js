@@ -21,12 +21,25 @@ const English = {
   },
   footer: {
     Home: "Home",
-    Services: "Services",
     About_us: "About us",
-    Contact_us: "Contact us",
-    FAQ: "FAQ",
-    Blog: "Blog",
+    Pricing:"Pricing",
+    Troubleshoot:"Troubleshoot",
+    FAQs: "FAQs",
+    Blogs: "Blogs",
     button_text: "Get Started",
+
+    Apple_TV: "Apple TV",
+    Smart_Tv: "Smart TV",
+    Mobil_Surfplatta:"Mobil/Surfplatta",
+    Datorn:"Datorn",
+    Android_Box: "Android Box",
+    Formuler_Box: "Formuler Box",
+    TVIP_Box: "TVIP Box",
+    Onyx_Box: "Onyx Box",
+
+
+
+
   },
   hero_section: {
     heading: "The Next Level of IPTV – Smooth, Fast, Unlimited",

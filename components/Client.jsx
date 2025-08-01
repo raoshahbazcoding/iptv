@@ -47,7 +47,6 @@ export function Client() {
 
     let myInterval
     useEffect(() => {
-        console.log(SlideStatus);
         
         if (SlideStatus) {
             myInterval = setInterval(() => {

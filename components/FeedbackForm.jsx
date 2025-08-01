@@ -53,7 +53,7 @@ export function FeedbackForm() {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.5, ease: "easeOut" }}
                     >
-                      <div className='xl:max-w-[1200px] 2xl:max-w-[1500px]'>
+                      <div className='xl:max-w-[1400px] 2xl:max-w-[1500px]'>
                           <motion.div
                             className="w-full lg:max-w-[800px]  p-6 rounded-xl shadow-lg xl:max-w-[80%]"
                             initial={{ x: 20, opacity: 0 }}
